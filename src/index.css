@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  position: relative;
+  min-height: 100vh;
+}
+.text-gradient {
+  background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,211,133,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,211,133,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+.getstarted{
+  background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,211,133,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,211,133,1) 100%);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,211,133,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#ecd385",GradientType=1);
+}
+.getstarted:hover{
+  background: -moz-linear-gradient(0deg, rgb(53, 220, 223) 0%, rgb(247, 209, 96) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,211,133,1) 100%);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(236,211,133,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#ecd385",GradientType=1);
+}
+.lds-dual-ring {
+  display: inline-block;
+}
+.lds-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  font-weight: 500;
+  height: 64px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.footer{
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom:0 !important;
+  /* margin-top: auto!important; */
+  
+  }
