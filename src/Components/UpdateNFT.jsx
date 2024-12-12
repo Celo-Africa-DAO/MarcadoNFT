@@ -62,8 +62,8 @@ const UpdateNFT = () => {
                 text-slate-500 bg-transparent border-0
                 focus:outline-none focus:ring-0"
                 type="number"
-                step={0.01}
-                min={0.01}
+                step={1}
+                min={1}
                 name="price"
                 placeholder="Price (CELO)"
                 required
